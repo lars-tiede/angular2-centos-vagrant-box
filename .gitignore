@@ -1,0 +1,12 @@
+*.o
+*.so
+*.a
+*.pyc
+*_pycache__
+*~
+*.swp
+*.swo
+*.vim
+*tags
+*DS_Store
+.vagrant

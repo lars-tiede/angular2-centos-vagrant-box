@@ -1,0 +1,7 @@
+---
+- hosts: all
+  become: yes
+  roles:
+      - role: geerlingguy.repo-epel
+      - role: geerlingguy.nodejs
+        nodejs_version: 6.x
