@@ -4,6 +4,8 @@ Just a Vagrant box for getting started with Angular2 and node.js and CentOS.
 
 I followed the tutorial on [angular.io](https://angular.io/docs/ts/latest/quickstart.html).
 
+Ports 3000 and 3001 from the VM are forwarded to the same ports on the host. So you can access lite-server and its web UI running on the VM at http://localhost:3000 and http://localhost:3001.
+
 
 ## Prerequisites
 
